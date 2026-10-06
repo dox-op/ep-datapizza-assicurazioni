@@ -1,0 +1,15 @@
+{
+  "name": "dp-assicurazioni-w2-core",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test \"test/**/*.test.ts\"",
+    "run:synthetic": "node --experimental-strip-types scripts/run-w2.ts",
+    "run:w3-trigger": "node --experimental-strip-types scripts/run-w3-trigger.ts",
+    "run:narrative-contradiction": "node --experimental-strip-types scripts/run-narrative-contradiction.ts",
+    "verify": "npm test && npm run run:synthetic -- data/synthetic/external-systems tmp/w2-output.json && npm run run:w3-trigger && npm run run:narrative-contradiction"
+  }
+}

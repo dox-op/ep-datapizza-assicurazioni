@@ -1,0 +1,19 @@
+{
+  "sourceSystem": "Archivio documentale",
+  "sourceRef": "invoice://INV-W3-001",
+  "record": {
+    "invoiceId": "INV-W3-001",
+    "claimId": "CLM-W3-001",
+    "lines": [
+      {
+        "itemCode": "BUMPER",
+        "description": "Paraurti anteriore",
+        "quantity": 1,
+        "total": { "minorUnits": 15000, "currency": "EUR" },
+        "sourceRef": "invoice://INV-W3-001#line-1"
+      }
+    ],
+    "total": { "minorUnits": 15000, "currency": "EUR" },
+    "sourceRef": "invoice://INV-W3-001"
+  }
+}

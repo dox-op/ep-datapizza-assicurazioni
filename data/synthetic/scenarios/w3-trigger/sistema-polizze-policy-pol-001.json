@@ -1,0 +1,12 @@
+{
+  "sourceSystem": "Sistema Polizze",
+  "sourceRef": "policy://POL-W3-001",
+  "record": {
+    "policyId": "POL-W3-001",
+    "claimId": "CLM-W3-001",
+    "covered": true,
+    "limit": { "minorUnits": 50000, "currency": "EUR" },
+    "deductible": { "minorUnits": 1000, "currency": "EUR" },
+    "sourceRef": "policy://POL-W3-001"
+  }
+}

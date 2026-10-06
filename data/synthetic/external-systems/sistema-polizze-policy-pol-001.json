@@ -1,0 +1,12 @@
+{
+  "sourceSystem": "Sistema Polizze",
+  "sourceRef": "policy://POL-001",
+  "record": {
+    "policyId": "POL-001",
+    "claimId": "CLM-001",
+    "covered": true,
+    "limit": { "minorUnits": 50000, "currency": "EUR" },
+    "deductible": { "minorUnits": 1000, "currency": "EUR" },
+    "sourceRef": "policy://POL-001"
+  }
+}

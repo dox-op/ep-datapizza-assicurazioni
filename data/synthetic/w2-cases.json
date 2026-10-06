@@ -1,0 +1,50 @@
+{
+  "aligned": {
+    "practice": {
+      "claimId": "CLM-001",
+      "policyId": "POL-001",
+      "narrative": "The insured vehicle sustained front bumper damage in a rear-end collision.",
+      "currency": "EUR",
+      "sourceRef": "claim://CLM-001"
+    },
+    "appraisal": {
+      "appraisalId": "APP-001",
+      "claimId": "CLM-001",
+      "narrative": "The inspection confirms front bumper damage consistent with a rear-end collision.",
+      "lines": [
+        {
+          "itemCode": "BUMPER",
+          "description": "Paraurti anteriore",
+          "quantity": 1,
+          "total": { "minorUnits": 10000, "currency": "EUR" },
+          "sourceRef": "appraisal://APP-001#line-1"
+        }
+      ],
+      "total": { "minorUnits": 10000, "currency": "EUR" },
+      "sourceRef": "appraisal://APP-001"
+    },
+    "invoice": {
+      "invoiceId": "INV-001",
+      "claimId": "CLM-001",
+      "lines": [
+        {
+          "itemCode": "BUMPER",
+          "description": "Paraurti anteriore",
+          "quantity": 1,
+          "total": { "minorUnits": 10000, "currency": "EUR" },
+          "sourceRef": "invoice://INV-001#line-1"
+        }
+      ],
+      "total": { "minorUnits": 10000, "currency": "EUR" },
+      "sourceRef": "invoice://INV-001"
+    },
+    "policy": {
+      "policyId": "POL-001",
+      "claimId": "CLM-001",
+      "covered": true,
+      "limit": { "minorUnits": 50000, "currency": "EUR" },
+      "deductible": { "minorUnits": 1000, "currency": "EUR" },
+      "sourceRef": "policy://POL-001"
+    }
+  }
+}

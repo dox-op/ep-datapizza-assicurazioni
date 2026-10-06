@@ -1,0 +1,12 @@
+{
+  "sourceSystem": "Gestionale Sinistri",
+  "sourceRef": "claim://CLM-W3-001",
+  "record": {
+    "claimId": "CLM-W3-001",
+    "policyId": "POL-W3-001",
+    "narrative": "The insured vehicle sustained front bumper damage in a rear-end collision.",
+    "narrativeCheckFixture": "CONSISTENT",
+    "currency": "EUR",
+    "sourceRef": "claim://CLM-W3-001"
+  }
+}

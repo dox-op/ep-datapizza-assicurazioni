@@ -1,0 +1,19 @@
+{
+  "sourceSystem": "Archivio documentale",
+  "sourceRef": "invoice://INV-NARR-001",
+  "record": {
+    "invoiceId": "INV-NARR-001",
+    "claimId": "CLM-NARR-001",
+    "lines": [
+      {
+        "itemCode": "BUMPER",
+        "description": "Paraurti anteriore",
+        "quantity": 1,
+        "total": { "minorUnits": 10000, "currency": "EUR" },
+        "sourceRef": "invoice://INV-NARR-001#line-1"
+      }
+    ],
+    "total": { "minorUnits": 10000, "currency": "EUR" },
+    "sourceRef": "invoice://INV-NARR-001"
+  }
+}

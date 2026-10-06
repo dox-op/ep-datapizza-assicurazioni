@@ -1,0 +1,12 @@
+{
+  "sourceSystem": "Gestionale Sinistri",
+  "sourceRef": "claim://CLM-NARR-001",
+  "record": {
+    "claimId": "CLM-NARR-001",
+    "policyId": "POL-NARR-001",
+    "narrative": "The insured vehicle sustained front bumper damage in a rear-end collision.",
+    "narrativeCheckFixture": "CONTRADICTS",
+    "currency": "EUR",
+    "sourceRef": "claim://CLM-NARR-001"
+  }
+}

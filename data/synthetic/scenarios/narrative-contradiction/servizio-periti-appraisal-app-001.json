@@ -1,0 +1,20 @@
+{
+  "sourceSystem": "Servizio Periti",
+  "sourceRef": "appraisal://APP-NARR-001",
+  "record": {
+    "appraisalId": "APP-NARR-001",
+    "claimId": "CLM-NARR-001",
+    "narrative": "No collision damage was found on the vehicle.",
+    "lines": [
+      {
+        "itemCode": "BUMPER",
+        "description": "Paraurti anteriore",
+        "quantity": 1,
+        "total": { "minorUnits": 10000, "currency": "EUR" },
+        "sourceRef": "appraisal://APP-NARR-001#line-1"
+      }
+    ],
+    "total": { "minorUnits": 10000, "currency": "EUR" },
+    "sourceRef": "appraisal://APP-NARR-001"
+  }
+}
